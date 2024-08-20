@@ -41,14 +41,21 @@ function App() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto">
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">{t('aboutUs')}</Nav.Link>
+            <Nav.Link href="#products">{t('ourProducts')}</Nav.Link>
+            <Nav.Link href="#aboutUs">{t('aboutUs')}</Nav.Link>
+            <Nav.Link href="#contact">{t('contactUs')}</Nav.Link>
             <NavDropdown title={t('partners')} id="navbarScrollingDropdown">
-              <NavDropdown.Item href="https://www.tubosapolo.com.br" target="_blank" rel="noopener noreferrer">Apolo</NavDropdown.Item>
+              <NavDropdown.Item className='bg-secondary' href="https://www.tubosapolo.com.br" target="_blank" rel="noopener noreferrer">
+                <Image src="https://tubosapolo.com.br/wp-content/uploads/2023/10/apolo.png" alt="Clickable Image" fluid />
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://www.secur.com.br" target="_blank" rel="noopener noreferrer">Secur</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.secur.com.br" target="_blank" rel="noopener noreferrer">
+                <Image src="https://www.secur.com.br/wp-content/uploads/2023/05/logomarca-secur.png" alt="Clickable Image" fluid />
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://www.ipcbrasil.ind.br/" target="_blank" rel="noopener noreferrer">IPC Brasil</NavDropdown.Item>
+              <NavDropdown.Item className='bg-secondary' href="https://www.ipcbrasil.ind.br/" target="_blank" rel="noopener noreferrer">
+                <Image src="https://ipcbrasil.ind.br/wp-content/uploads/2022/08/logo-ipc.png" alt="Clickable Image" fluid />
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title={t('Languages')}>
               <NavDropdown.Item onClick={() => handleLanguageChange('pt')}>Pt</NavDropdown.Item>
@@ -62,21 +69,21 @@ function App() {
       {/*Hero Section*/}
       <Carousel fade >
         <Carousel.Item style={carouselStyle} interval={4000}>
-          <Image alt='First slide' src={waterSupply} style={imageStyle}/>
+          <Image alt='First slide' src={waterSupply} style={imageStyle} />
           <Carousel.Caption>
             <p className='fs-3 fw-bold'>{t('slide1Title')}</p>
             <p>{t('slide1Description')}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={carouselStyle} interval={4000}>
-          <Image alt='Second slide' src={redPipes} style={imageStyle}/>
+          <Image alt='Second slide' src={redPipes} style={imageStyle} />
           <Carousel.Caption>
             <p className='fs-3 fw-bold'>{t('slide2Title')}</p>
             <p>{t('slide2Description')}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={carouselStyle} interval={4000}>
-          <Image alt='Third slide' src={valves} style={imageStyle}/>
+          <Image alt='Third slide' src={valves} style={imageStyle} />
           <Carousel.Caption>
             <p className='fs-3 fw-bold'>{t('slide3Title')}</p>
             <p>{t('slide3Description')}</p>
@@ -85,8 +92,8 @@ function App() {
       </Carousel>
 
       {/*Nossos Produtos section */}
-      <Container className="text-center my-5">
-        <h1>Amostra de produtos</h1>
+      <Container className="text-center my-5" id="products">
+        <h1>{t('productSection')}</h1>
         <Row md={4} xs={1} className='my-5'>
           <Col>
             <Card style={{ width: '18rem' }}>
@@ -137,28 +144,78 @@ function App() {
             </Card>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={hose} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={hose} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={hose} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={hose} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
 
       {/* About us section */}
-      <Container className='bg-primary my-5 text-center text-light' fluid>
+      <Container className='bg-primary my-5 text-center text-light' id="aboutUs" fluid>
         <Row md={2} xs={1}>
           <Col className='p-0'>
             <Image alt='about us' src={aboutUs} style={imageStyle} />
           </Col>
           <Col className='mt-5 text-light'>
-            <h1 className='text-light mb-5'>Why Choose Us?</h1>
+            <h1 className='text-light mb-5'>{t('aboutUsSection')}</h1>
             <Stack gap={5}>
               <div>
-                <p className='fw-semibold fs-4'>Loyal Customer Base</p>
-                <p className='fw-light'>Trusted by thousands across Brazil for consistent, reliable service.</p>
+                <p className='fw-semibold fs-4'>{t('aboutUsSectionTitle1')}</p>
+                <p className='fw-light'>{t('aboutUsSectionDescription1')}</p>
               </div>
               <div>
-                <p className='fw-semibold fs-4'>Nationwide Reach</p>
-                <p className='fw-light'>Delivering to every corner of Brazil, no matter the distance.</p>
+                <p className='fw-semibold fs-4'>{t('aboutUsSectionTitle2')}</p>
+                <p className='fw-light'>{t('aboutUsSectionDescription2')}</p>
               </div>
               <div>
-                <p className='fw-semibold fs-4'>Customer Support</p>
-                <p className='fw-light'>Dedicated support to assist with all your requirements.</p>
+                <p className='fw-semibold fs-4'>{t('aboutUsSectionTitle3')}</p>
+                <p className='fw-light'>{t('aboutUsSectionDescription3')}</p>
               </div>
             </Stack>
           </Col>
@@ -166,7 +223,7 @@ function App() {
       </Container>
 
       {/* Contact Form Section */}
-      <Container className="my-5 text-center">
+      <Container className="my-5 py-1 text-center" id="contact">
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <h1>{t('contactUs')}</h1>
