@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sales-rep-ana/static/css/main.3a4c813a.css",
+    "main.js": "/sales-rep-ana/static/js/main.231a733e.js",
+    "static/js/453.59caa67d.chunk.js": "/sales-rep-ana/static/js/453.59caa67d.chunk.js",
+    "static/media/aboutUs.jpg": "/sales-rep-ana/static/media/aboutUs.f18b379bde91cd80cd24.jpg",
+    "static/media/valves.jpg": "/sales-rep-ana/static/media/valves.aaad36a2ab26910f38d9.jpg",
+    "static/media/steel-pipes.png": "/sales-rep-ana/static/media/steel-pipes.addcce52f56d0ad93177.png",
+    "static/media/red-pipes.jpg": "/sales-rep-ana/static/media/red-pipes.6b3ce0493cb1e4ce45f4.jpg",
+    "static/media/fire-hose.png": "/sales-rep-ana/static/media/fire-hose.9d9a5fa09b8013aa6a1a.png",
+    "static/media/bootstrap-icons.woff?": "/sales-rep-ana/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/water-supply.jpg": "/sales-rep-ana/static/media/water-supply.9e98950528603c0bbb80.jpg",
+    "static/media/bootstrap-icons.woff2?": "/sales-rep-ana/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/sprinkler.png": "/sales-rep-ana/static/media/sprinkler.6acc26755d34cc2d69d6.png",
+    "index.html": "/sales-rep-ana/index.html",
+    "main.3a4c813a.css.map": "/sales-rep-ana/static/css/main.3a4c813a.css.map",
+    "main.231a733e.js.map": "/sales-rep-ana/static/js/main.231a733e.js.map",
+    "453.59caa67d.chunk.js.map": "/sales-rep-ana/static/js/453.59caa67d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4c813a.css",
+    "static/js/main.231a733e.js"
+  ]
+}
