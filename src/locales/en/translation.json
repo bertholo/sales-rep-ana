@@ -23,5 +23,7 @@
     "email": "Your Email",
     "message": "Your Message",
     "submit": "Send Message",
+    "submitSuccess": "Your email has been sent, our team will get in contact shortly.",
+    "submitError": "We were unable to send your email, please consider sending us a message at +55 21 99443-9571",
     "footer": "© 2024 Sales Representative"
 }

@@ -23,5 +23,7 @@
     "email": "Seu Email",
     "message": "Sua Mensagem",
     "submit": "Enviar Mensagem",
+    "submitSuccess": "Seu email foi enviado com sucesso. Nossa equipe entrará em contato em breve.",
+    "submitError": "Um erro ocorreu no envio do e-mail. Por favor, entre em contato pelo número +55 21 99443-9571.",
     "footer": "© 2024 Representante de Vendas"
 }
