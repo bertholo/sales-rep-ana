@@ -25,11 +25,11 @@ function EmailForm({ t }) {
   };
 
   return (
-    <Container className="my-5 py-1 text-center" id="contact">
+    <Container className="py-5 text-center" id="contact" fluid>
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
           <h1>{t('contactUs')}</h1>
-          <Form action="#" onSubmit={handleSubmit} method="post">
+          <Form onSubmit={handleSubmit} method="post">
             <Form.Group controlId="formName" className="mb-3 mt-5">
               <Form.Control type="text" name="from_name" placeholder={t('name')} required />
             </Form.Group>
