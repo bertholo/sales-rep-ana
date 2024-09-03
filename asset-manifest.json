@@ -1,23 +1,30 @@
 {
   "files": {
     "main.css": "/sales-rep-ana/static/css/main.3a4c813a.css",
-    "main.js": "/sales-rep-ana/static/js/main.3647a763.js",
+    "main.js": "/sales-rep-ana/static/js/main.9933b195.js",
     "static/js/453.59caa67d.chunk.js": "/sales-rep-ana/static/js/453.59caa67d.chunk.js",
     "static/media/aboutUs.jpg": "/sales-rep-ana/static/media/aboutUs.034a3723a0eaa0fb37bc.jpg",
+    "static/media/valve.jpg": "/sales-rep-ana/static/media/valve.d1f4ea59ce376792e3f5.jpg",
     "static/media/whyUs.jpg": "/sales-rep-ana/static/media/whyUs.f18b379bde91cd80cd24.jpg",
+    "static/media/fire-pipes.png": "/sales-rep-ana/static/media/fire-pipes.ff23f5369d3934e9c128.png",
     "static/media/valves.jpg": "/sales-rep-ana/static/media/valves.aaad36a2ab26910f38d9.jpg",
+    "static/media/electroducts.png": "/sales-rep-ana/static/media/electroducts.30658e46ca1a9172eec8.png",
+    "static/media/protection.jpg": "/sales-rep-ana/static/media/protection.7c7071d152b2f3e05cc7.jpg",
     "static/media/red-pipes.jpg": "/sales-rep-ana/static/media/red-pipes.6b3ce0493cb1e4ce45f4.jpg",
     "static/media/fire-hose.png": "/sales-rep-ana/static/media/fire-hose.9d9a5fa09b8013aa6a1a.png",
     "static/media/bootstrap-icons.woff?": "/sales-rep-ana/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/water-supply.jpg": "/sales-rep-ana/static/media/water-supply.9e98950528603c0bbb80.jpg",
     "static/media/bootstrap-icons.woff2?": "/sales-rep-ana/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/conexoes.png": "/sales-rep-ana/static/media/conexoes.387267288b74aa938ba8.png",
+    "static/media/other-materials.jpg": "/sales-rep-ana/static/media/other-materials.3ee9b3058af67c6ef51b.jpg",
+    "static/media/sprinkler.jpg": "/sales-rep-ana/static/media/sprinkler.29b148e307403672af01.jpg",
     "index.html": "/sales-rep-ana/index.html",
     "main.3a4c813a.css.map": "/sales-rep-ana/static/css/main.3a4c813a.css.map",
-    "main.3647a763.js.map": "/sales-rep-ana/static/js/main.3647a763.js.map",
+    "main.9933b195.js.map": "/sales-rep-ana/static/js/main.9933b195.js.map",
     "453.59caa67d.chunk.js.map": "/sales-rep-ana/static/js/453.59caa67d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a4c813a.css",
-    "static/js/main.3647a763.js"
+    "static/js/main.9933b195.js"
   ]
 }
