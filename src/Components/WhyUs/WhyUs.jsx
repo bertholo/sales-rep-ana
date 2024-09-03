@@ -10,7 +10,7 @@ function WhyUs({ t, imageStyle }) {
                 <Col className='p-0'>
                     <Image alt='about us' src={whyUs} style={imageStyle} rounded/>
                 </Col>
-                <Col className='my-5 '>
+                <Col className='my-5 px-5'>
                     <h1 className='text-light mb-5'>{t('whyUsSection')}</h1>
                     <Stack gap={5}>
                         <div>

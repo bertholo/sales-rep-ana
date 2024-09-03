@@ -5,7 +5,7 @@ function TopNav({ t, handleLanguageChange }) {
     return (
         <Navbar expand="md" className='p-3' bg="primary" data-bs-theme="dark" fluid>
             <Navbar.Brand className='px-4 fs-1' href="#home">
-                Direcionaco
+                Direcionaço
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -14,15 +14,15 @@ function TopNav({ t, handleLanguageChange }) {
                     <Nav.Link href="#aboutUs">{t('aboutUs')}</Nav.Link>
                     <Nav.Link href="#contact">{t('contactUs')}</Nav.Link>
                     <NavDropdown title={t('partners')} id="navbarScrollingDropdown">
-                        <NavDropdown.Item className='bg-secondary' href="https://www.tubosapolo.com.br" target="_blank" rel="noopener noreferrer">
+                        <NavDropdown.Item target="_blank" rel="noopener noreferrer" disabled>
                             <Image src="https://tubosapolo.com.br/wp-content/uploads/2023/10/apolo.png" alt="Clickable Image" fluid />
                         </NavDropdown.Item>
-
-                        <NavDropdown.Item href="https://www.secur.com.br" target="_blank" rel="noopener noreferrer">
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item target="_blank" rel="noopener noreferrer" disabled>
                             <Image src="https://www.secur.com.br/wp-content/uploads/2023/05/logomarca-secur.png" alt="Clickable Image" fluid />
                         </NavDropdown.Item>
-
-                        <NavDropdown.Item className='bg-secondary' href="https://www.ipcbrasil.ind.br/" target="_blank" rel="noopener noreferrer">
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item target="_blank" rel="noopener noreferrer" disabled>
                             <Image src="https://ipcbrasil.ind.br/wp-content/uploads/2022/08/logo-ipc.png" alt="Clickable Image" fluid />
                         </NavDropdown.Item>
                     </NavDropdown>
