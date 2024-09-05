@@ -15,15 +15,15 @@ function TopNav({ t, handleLanguageChange }) {
                     <Nav.Link href="#contact">{t('contactUs')}</Nav.Link>
                     <NavDropdown title={t('partners')} id="navbarScrollingDropdown">
                         <NavDropdown.Item target="_blank" rel="noopener noreferrer" disabled>
-                            <Image src="https://tubosapolo.com.br/wp-content/uploads/2023/10/apolo.png" alt="Clickable Image" fluid />
+                            <Image className='bg-light p-2' src="https://tubosapolo.com.br/wp-content/uploads/2023/10/apolo.png" alt="Clickable Image" rounded fluid />
                         </NavDropdown.Item>
-                        <NavDropdown.Divider />
+                        <NavDropdown.Divider className='bg-light' />
                         <NavDropdown.Item target="_blank" rel="noopener noreferrer" disabled>
                             <Image src="https://www.secur.com.br/wp-content/uploads/2023/05/logomarca-secur.png" alt="Clickable Image" fluid />
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
+                        </NavDropdown.Item >
+                        <NavDropdown.Divider className='bg-light' />
                         <NavDropdown.Item target="_blank" rel="noopener noreferrer" disabled>
-                            <Image src="https://ipcbrasil.ind.br/wp-content/uploads/2022/08/logo-ipc.png" alt="Clickable Image" fluid />
+                            <Image className='bg-light' src="https://ipcbrasil.ind.br/wp-content/uploads/2022/08/logo-ipc.png" alt="Clickable Image" rounded fluid />
                         </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title={t('Languages')}>
