@@ -1,11 +1,12 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Image } from 'react-bootstrap';
+import logo from '../../img/logo.png'
 
 function TopNav({ t, handleLanguageChange }) {
     return (
         <Navbar expand="md" className='p-3' bg="primary" data-bs-theme="dark" fluid>
             <Navbar.Brand className='px-4 fs-1' href="#home">
-                Direcionaço
+                <Image alt='Direcionaco logo' src={logo} style={{ width: '6em', height: 'auto' }}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
