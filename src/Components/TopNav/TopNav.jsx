@@ -28,9 +28,9 @@ function TopNav({ t, handleLanguageChange }) {
                         </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title={t('Languages')}>
-                        <NavDropdown.Item onClick={() => handleLanguageChange('pt')}>Pt</NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => handleLanguageChange('pt')}>PT/BR</NavDropdown.Item>
 
-                        <NavDropdown.Item onClick={() => handleLanguageChange('en')}>En</NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => handleLanguageChange('en')}>EN</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
